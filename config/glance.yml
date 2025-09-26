@@ -36,6 +36,8 @@ pages:
               - url: https://jeffwang.substack.com/feed
                 title: jeff wang
               - url: https://www.astralcodexten.com/feed
+              - url: https://blog.ethereum.org/en/feed.xml
+                title: Ethereum Blog
           - type: rss
             limit: 100
             collapse-after: 30
