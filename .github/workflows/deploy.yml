@@ -19,6 +19,6 @@ jobs:
           sudo rm -rf ~/glance
           cd ~
           git clone git@github.com:tedim52/glance.git
-          docker compose down
-          docker compose pull
-          docker compose up -d
+          docker-compose down
+          docker-compose pull
+          docker-compose up -d
