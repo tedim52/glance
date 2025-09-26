@@ -1,13 +1,12 @@
 pages:
   - name: Home
-    # Optionally, if you only have a single page you can hide the desktop navigation for a cleaner look
     hide-desktop-navigation: true
     columns:
       - size: full
         widgets:
           - type: rss
-            limit: 30
-            collapse-after: 15
+            limit: 100
+            collapse-after: 30
             cache: 12h
             feeds:
               - url: https://blog.pragmaticengineer.com/rss/
@@ -16,32 +15,60 @@ pages:
                 title: Mitchell Hashimoto Blog
               - url: https://lemire.me/blog/feed/
                 title: Daniel Lemire blog
-              - url: https://www.astralcodexten.com/feed
-                title: Astral Codex Ten
-              - url: https://folkcomputer.substack.com/feed
-                title: Folk Computer
-              - url: https://signull.substack.com/feed
-                title: Signull vs. Noise
-              - url: https://mieubrisse.substack.com/feed                
-                title: Kevin Today
               - url: https://notes.eatonphil.com/rss.xml
                 title: Phil Eaton
+              - url: https://www.allthingsdistributed.com/atom.xml
+                title: Werner Vogels
+              - url: https://vitalik.eth.limo/feed.xml
+                title: Vitalik Buterin
               - url: https://buttondown.com/jaffray/rss
                 title: Justin Jaffray
+              - url: https://api.paragraph.com/blogs/rss/@base-engineering-blog
+                title: base engineering
+              - url: https://brooker.co.za/blog/rss.xml
+                title: Marc Brooker's Blog
+              - url: https://collective.flashbots.net/posts.rss
+                title: Flashbots MEV Letter
+              - url: https://folkcomputer.substack.com/feed
+                title: Folk Computer
+              - url: https://a16zcrypto.substack.com/feed
+                title: a16z crypto
+              - url: https://jeffwang.substack.com/feed
+                title: jeff wang
+              - url: https://www.astralcodexten.com/feed
+          - type: rss
+            limit: 100
+            collapse-after: 30
+            cache: 12h
+            feeds:
+              - url: https://africasacountry.com/rss
+                title: Africa is a Country
+              - url: https://aeon.co/feed.rss
+                title: Aeon
+              - title: Astral Codex Ten
+              - url: https://signull.substack.com/feed
+                title: Signull vs. Noise
+              - url: https://mieubrisse.substack.com/feed
+                title: Kevin Today
               - url: https://artdirection.substack.com/feed
                 title: Art Direction
               - url: https://presleyparker.substack.com/feed
                 title: Presley Parker
-              - url: https://www.allthingsdistributed.com/atom.xml
-                title: Werner Vogels
               - url: https://iterintellectus.substack.com/feed
                 title: Bio/acct
-              - url: https://collective.flashbots.net/posts.rss
-                title: Flashbots MEV Letter
-              - url: https://a16zcrypto.substack.com/feed
-                title: a16z crypto
+              - url: https://fakepixels.substack.com/feed
+                title: tina he
+              - url: https://nautil.us/feed/
+                title: Nautilus
+              - url: https://www.noemamag.com/?feed=noemarss
+                title: Noema
+              - url: https://www.worksinprogress.news/feed
+                title: Works in Progress
       - size: small
         widgets:
+          - type: weather
+            units: imperial
+            location: New York, NY
           - type: markets
             markets:
               - symbol: VOO
@@ -52,10 +79,28 @@ pages:
                 name: Bitcoin
               - symbol: ETH
                 name: Ethereum
-      - size: full
+          - type: rss
+            limit: 40
+            collapse-after: 15
+            cache: 12h
+            feeds:
+              - url: https://rss.nytimes.com/services/xml/rss/nyt/World.xml
+                title: NYT World
+              - url: https://rss.nytimes.com/services/xml/rss/nyt/Business.xml
+                title: NYT Business
+              - url: https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml
+                title: NYT Technology
+              - url: https://rss.nytimes.com/services/xml/rss/nyt/Science.xml
+                title: NYT Science
+      - size: small
         widgets:
           - type: group
             widgets:
               - type: hacker-news
-
-      
+          - type: rss
+            limit: 40
+            collapse-after: 15
+            cache: 12h
+            feeds:
+              - url: https://www.govinfo.gov/rss/bills.xml
+                title: U.S Congressional Bills
