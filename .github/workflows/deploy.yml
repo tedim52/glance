@@ -17,9 +17,9 @@ jobs:
         key: ${{ secrets.PRIVATE_KEY }}
         script: |
           sudo rm -rf ~/glance
-          sudo cd ~
+          cd ~s
           git clone https://github.com/tedim52/glance.git
-          sudo cd ~/glance
+          cd ~/glance
           sudo docker-compose down
           sudo docker-compose pull
           sudo docker-compose up -d
