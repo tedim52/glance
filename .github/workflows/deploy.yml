@@ -13,8 +13,8 @@ jobs:
       uses: appleboy/ssh-action@v1.0.3
       with:
         host: ${{ secrets.SSH_HOST }}
-        username: ${{ secrets.SSH_USERNAME }}
-        key: ${{ secrets.SSH_PRIVATE_KEY }}
+        username: ubuntu
+        key: ${{ secrets.PRIVATE_KEY }}
         script: |
           sudo rm -rf ~/glance
           cd ~
