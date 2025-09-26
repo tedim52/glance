@@ -63,6 +63,13 @@ pages:
                 title: Noema
               - url: https://www.worksinprogress.news/feed
                 title: Works in Progress
+          - type: rss
+            limit: 100
+            collapse-after: 30
+            cache: 12h
+            feeds:
+              - url: https://www.worksinprogress.news/feed?sectionId=235110
+                title: Works In Progress Podcasts
       - size: small
         widgets:
           - type: weather
