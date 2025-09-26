@@ -1,0 +1,61 @@
+pages:
+  - name: Home
+    # Optionally, if you only have a single page you can hide the desktop navigation for a cleaner look
+    hide-desktop-navigation: true
+    columns:
+      - size: full
+        widgets:
+          - type: rss
+            limit: 30
+            collapse-after: 15
+            cache: 12h
+            feeds:
+              - url: https://blog.pragmaticengineer.com/rss/
+                title: Pragmatic Engineer
+              - url: https://mitchellh.com/feed.xml
+                title: Mitchell Hashimoto Blog
+              - url: https://lemire.me/blog/feed/
+                title: Daniel Lemire blog
+              - url: https://www.astralcodexten.com/feed
+                title: Astral Codex Ten
+              - url: https://folkcomputer.substack.com/feed
+                title: Folk Computer
+              - url: https://signull.substack.com/feed
+                title: Signull vs. Noise
+              - url: https://mieubrisse.substack.com/feed                
+                title: Kevin Today
+              - url: https://notes.eatonphil.com/rss.xml
+                title: Phil Eaton
+              - url: https://buttondown.com/jaffray/rss
+                title: Justin Jaffray
+              - url: https://artdirection.substack.com/feed
+                title: Art Direction
+              - url: https://presleyparker.substack.com/feed
+                title: Presley Parker
+              - url: https://www.allthingsdistributed.com/atom.xml
+                title: Werner Vogels
+              - url: https://iterintellectus.substack.com/feed
+                title: Bio/acct
+              - url: https://collective.flashbots.net/posts.rss
+                title: Flashbots MEV Letter
+              - url: https://a16zcrypto.substack.com/feed
+                title: a16z crypto
+      - size: small
+        widgets:
+          - type: markets
+            markets:
+              - symbol: VOO
+                name: Vanguard S&P 500 ETF
+              - symbol: VONG
+                name: Vanguard Russell 1000 Growth ETF
+              - symbol: BTC-USD
+                name: Bitcoin
+              - symbol: ETH
+                name: Ethereum
+      - size: full
+        widgets:
+          - type: group
+            widgets:
+              - type: hacker-news
+
+      
