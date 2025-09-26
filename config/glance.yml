@@ -52,10 +52,10 @@ pages:
                 name: Bitcoin
               - symbol: ETH
                 name: Ethereum
-      - size: full
-        widgets:
-          - type: group
-            widgets:
-              - type: hacker-news
+      # - size: full
+      #   widgets:
+      #     - type: group
+      #       widgets:
+      #         - type: hacker-news
 
       
