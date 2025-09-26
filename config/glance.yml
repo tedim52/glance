@@ -63,6 +63,8 @@ pages:
                 title: Noema
               - url: https://www.worksinprogress.news/feed
                 title: Works in Progress
+              - url: https://fs.blog/feed/
+                title: Shane Parrish, Farnam Street
           - type: rss
             limit: 100
             collapse-after: 30
