@@ -68,7 +68,7 @@ pages:
         widgets:
           - type: weather
             units: imperial
-            location: New York, NY
+            location: New York
           - type: markets
             markets:
               - symbol: VOO
