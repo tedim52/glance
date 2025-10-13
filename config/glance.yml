@@ -75,6 +75,8 @@ pages:
             feeds:
               - url: https://www.worksinprogress.news/feed?sectionId=235110
                 title: Works In Progress Podcasts
+              - url: https://feeds.simplecast.com/XPOpH7r4
+                title: web3 with a16z Crypto
       - size: small
         widgets:
           - type: weather
