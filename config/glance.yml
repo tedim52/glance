@@ -9,6 +9,8 @@ pages:
             collapse-after: 30
             cache: 12h
             feeds:
+              - url: https://blog.cloudflare.com/
+                title: Cloudflare Blog
               - url: https://blog.pragmaticengineer.com/rss/
                 title: Pragmatic Engineer
               - url: https://mitchellh.com/feed.xml
