@@ -41,6 +41,8 @@ pages:
                 title: Ethereum Blog
               - url: https://www.seangoedecke.com/rss.xml
                 title: Sean Goedecke
+              - url: https://sankalp.bearblog.dev/feed
+                title: sankalp's blog
           - type: rss
             limit: 100
             collapse-after: 30
