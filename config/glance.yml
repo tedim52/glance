@@ -43,6 +43,10 @@ pages:
                 title: Sean Goedecke
               - url: https://sankalp.bearblog.dev/feed
                 title: sankalp's blog
+              - url: https://philiptrammell.substack.com/feed
+                title: Phil T
+              - url: https://www.dwarkesh.com/feed
+                title: Dwarkesh Patel
           - type: rss
             limit: 100
             collapse-after: 30
